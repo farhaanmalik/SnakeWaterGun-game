@@ -7,8 +7,10 @@ let computer = Math.floor(Math.random() * 3);
 let cpu = ["S", "W", "G"][computer];
 
 btn.addEventListener("click", function () {
-    let user = document.getElementById("user-input").value.toUpperCase()[0];
+    let user = document.getElementById("user-input").value;
+    user = user.toUpperCase();
 
+    
     if (user == "") {
         alert("Please write S, W or G");
     }
