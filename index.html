@@ -1,181 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electrical Shop In Lucknow - Nusa Electric House</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Snake, Water or Gun Game</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <nav>
-                <div class="left" id="timing">
-                    <p><strong>Timing:</strong> <span>9AM-9PM Mon-Sun</span> <br>Wednesday Closed</p>
-                </div>
-                <div class="mid" id="logo">
-                    <a href="#"><strong>NUSA<i class="fa-solid fa-lightbulb"></i></strong><br><span> Electric House</span></a>
-                </div>
-                <div class="right" id="contact">
-                    <a href=""><i class="fa-solid fa-square-phone"></i>Contact Us</i></a>
-                </div>
-            </nav>
+    <div class="container">
+        <div class="note">
+            <p><b>Note:</b> S = Snake, W = Water & G = Gun <br> This is a Snake Water Gun Game.</p>
         </div>
-    </header>
-
-    <div class="banner-section">
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img src="img/Lighting__Luminaires-DOMESTICO-1.webp" width="100%" height="500vh">
-            </div>
-
-            <div class="mySlides fade">
-              <img src="img/Water-Heater.webp" width="100%" height="500vh">
-            </div>
-
-            <div class="mySlides fade">
-               <img src="img/fan-banner.jpg" width="100%" height="500vh">
-            </div>
-
-            <div class="mySlides fade">
-              <img src="img/Connection-Zindagi-Ka-1.webp" width="100%" height="500vh">
-            </div>
-
-        </div>
+        <h1>Enter S, W or G.</h1>
+        <input type="text" id="user-input" autofocus>
         <br>
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          <span class="dot"></span>
-          <span class="dot"></span> 
+        <button id="btn">Submit</button>
+        <br>
+        <div class="rslt" id="result"></div>
+        <button type="button" id="restart">Restart</button>
+        <div>
+            <span class="showIp"></span>
         </div>
     </div>
 
-    <div class="product-section">
-        <div class="product">
-            <div class="t-head">
-                <h2>Our <span>Product</span></h2>
-            </div>
-            <div class="product-img">
-                <div id="img-1">
-                   <img src="img/Lighting-_temp_490.webp" width="70%">
-                   <h2>LIGHTING <br><span>&</span><br> LUMINAIRES</h2>
-                   <h3 class="mob-scrn">Lighting & Luminaires</h3>
-                </div>
-                <div class="row-2">
-                    <div class="image" id="img-2">
-                        <img src="img/ceiling-fan.webp">
-                        <h3>Ceiling Fans</h3>
-                    </div>
-                    <div class="image" id="img-3">
-                        <img src="img/geyser.jpg">
-                        <h3>Geysers</h3>
-                    </div>
-                    <div class="image" id="img-4">
-                        <img src="img/switch-socket.jpg">
-                        <h3>Switch & Socket</h3>
-                    </div>
-                    <div class="image" id="img-5">
-                        <img src="img/wire.webp">
-                        <h3>Wire & Cable</h3>
-                    </div>
-                    <div class="image" id="img-6">
-                        <img src="img/Fresh_Air_Fan.jpg">
-                        <h3>Ventilation-Fans</h3>
-                    </div>
-                    <div class="image" id="img-7">
-                        <img src="img/switch-gear.png">
-                        <h3>Switch-Gear</h3>
-                    </div>
-                    <div class="image" id="img-8">
-                        <img src="img/water-pump.jpg">
-                        <h3>Pumps</h3>
-                    </div>
-                    <div class="image" id="img-9">
-                        <img src="img/wall.jpg">
-                        <h3>Wall | Table | Pedestal Fans</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="more">
-                <a href="">Contact For Deals</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="pipe-banner banner-1">
-        <div class="pipe-head">
-            <h3>PVC Conduit <span>Electric Pipe</span></h3>
-        </div>
-    </div>
-
-    <div class="brand-section">
-        <div class="brand" style="text-align:center;">
-            <div class="t-head">
-                <h2><span>Brands</span> We <span>Provide</span></h2>
-            </div>
-            <div class="brands-img">
-               <div class="image-1">
-                   <img src="img/Havells-Logo.png" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/cham-logo.jpg" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/bajaj-logo.png" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/polycab-logo.png" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/usha-logo.png" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/rr-logo.png" alt="">
-               </div>
-               <div class="image-1">
-                   <img src="img/anchor.png" alt="">
-               </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="banner-2">
-        <img src="/img/fan-top-banner-new.jpg" alt="">
-    </div>
-
-    <footer>
-        <div class="ft-bg">
-            <div class="footer-section">
-                <div class="ft-1">
-                    <div class="logo">
-                        <a href="#"><strong>NUSA<i class="fa-solid fa-lightbulb"></i></strong><br><span> Electric House</span></a>
-                    </div>
-                    <div class="para">
-                        <p>Service & General Supplies in Luknow</p>
-                    </div>
-                </div>
-                <div class="ft-2">
-                    <div class="address">
-                        <p><strong>Contact Us:</strong><a href=""></a></p>
-                        <p><strong>Address:</strong>
-                            Nusa Electric House, Matinpurwa,
-                            <br>
-                            Sector 8, Vikas Nagar, Lucknow,
-                            <br>
-                            Uttar Pradesh 226022.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="ft-end">
-                <p>Created & Designed By <strong style="color: #ff6262;">TheFarhanCode</strong></p>
-            </div>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
